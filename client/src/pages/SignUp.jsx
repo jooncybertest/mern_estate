@@ -32,7 +32,7 @@ export default function SignUp() {
       }
       setLoading(false);
       setError(null);
-      navigate('/sign-in');
+      navigate("/sign-in");
       console.log(data);
     } catch (error) {
       setLoading(false);
