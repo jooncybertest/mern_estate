@@ -86,7 +86,34 @@ export default function CreateListing() {
       );
     });
   };
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    if (e.target.id === "sale" || e.target.id === "rent") {
+      setFormData({
+        ...formData,
+        type: e.target.id,
+      });
+    }
+    if (
+      e.target.id === "parking" ||
+      e.target.id === "furnished" ||
+      e.target.id === "offer"
+    ) {
+      setFormData({
+        ...formData,
+        [e.target.id]: e.target.checked,
+      });
+    }
+    if (
+      e.target.type === "number" ||
+      e.target.type === "text" ||
+      e.target.type === "textarea"
+    ) {
+      setFormData({
+        ...formData,
+        [e.target.id]: e.target.value,
+      });
+    }
+  };
   return (
     <main className="p-3 max-w-4xl mx-auto">
       <h1 className="text-3xl font-semibold text-center my-7">
@@ -106,7 +133,7 @@ export default function CreateListing() {
             value={formData.name}
           />
           <textarea
-            type="text"
+            type="textarea"
             placeholder="Description"
             className="border p-3 rounded-lg"
             id="description"
@@ -150,7 +177,7 @@ export default function CreateListing() {
                 id="parking"
                 className="w-5"
                 onChange={handleChange}
-                checked={formData.parking === "parking"}
+                checked={formData.parking}
               />
               <span>Parking spot</span>
             </div>
