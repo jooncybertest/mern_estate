@@ -23,3 +23,28 @@ These instructions will get you a copy of the project up and running on your loc
 
 What things you need to install the software and how to install them:
 
+
+### Installing
+
+A step-by-step series of examples that tell you how to get a development environment running:
+
+1. Clone the repository to your local machine:
+
+```bash
+git clone https://github.com/yourusername/MERN-Real-Estate-Web-App.git
+
+cd MERN-Real-Estate-Web-App
+
+cd backend
+npm install
+
+cd frontend
+npm install
+
+cd backend
+npm start
+
+cd frontend
+npm start
+
+
