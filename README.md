@@ -32,4 +32,16 @@ Ensure you have the following installed:
 - MongoDB
 - A modern web browser
 
+### Installation
 
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/jooncybertest/mern_estate.git
+
+npm start
+
+cd mern_estate/client
+npm install
+
+npm start
