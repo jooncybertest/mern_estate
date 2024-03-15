@@ -39,9 +39,10 @@ Ensure you have the following installed:
 ```bash
 git clone https://github.com/jooncybertest/mern_estate.git
 
+cd mern_estate/
+npm install
 npm start
 
 cd mern_estate/client
 npm install
-
 npm start
