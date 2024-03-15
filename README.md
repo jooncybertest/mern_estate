@@ -2,7 +2,6 @@
 
 Welcome to our cutting-edge Real Estate Web Application, designed and developed to transform the real estate market by providing an unparalleled digital experience. This application stands at the forefront of property search and listing, integrating the latest technologies to enhance user engagement and ensure robust security measures. With an impressive increase in user engagement by 30%, our platform is dedicated to delivering exceptional value to users and stakeholders alike.
 
-![Real Estate Web Application Interface](path/to/interface_screenshot.png)
 
 ## Key Features
 
