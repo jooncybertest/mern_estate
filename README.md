@@ -43,6 +43,7 @@ cd mern_estate/
 npm install
 npm start
 
-cd mern_estate/client
-npm install
-npm start
+```
+
+### Website
+https://mern-estate-und0.onrender.com
